@@ -1,5 +1,5 @@
 const db = require('./db')
-const { movie } = require('./models')
+const { movie,review } = require('./models')
 
 
 const findMovie = async () => {
